@@ -35,7 +35,7 @@ public class BlackJack {
         Scanner scanner = new Scanner(System.in);
         boolean playing = true;
 
-        while (playing) {
+        while(playing) {
             System.out.println("\nPress 1 to hit or 2 to stand.");
             String hitOrStand = scanner.next();
 
